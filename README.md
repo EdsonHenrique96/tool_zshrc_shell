@@ -11,7 +11,14 @@
   
   - O tema usado neste .zshrc é o [spaceship](https://github.com/denysdovhan/spaceship-prompt#installing)
   
-  instalando o tema, clone o repositório.
+  instale o tema, clonando o repositório.
   ```shell
     git clone https://github.com/denysdovhan/spaceship-prompt.git "$ZSH_CUSTOM/themes/spaceship-prompt"
   ```
+  
+  crie um link simbólico
+  ```shell
+    ln -s "$ZSH_CUSTOM/themes/spaceship-prompt/spaceship.zsh-theme" "$ZSH_CUSTOM/themes/spaceship.zsh-theme"
+  ```
+  
+  
