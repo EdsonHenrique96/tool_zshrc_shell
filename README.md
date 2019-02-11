@@ -1,4 +1,9 @@
 # ZSH
+  - clone o repositório
+  - copie o .zshrc para a home
+  ```shel
+    cp .zshrc ~/
+  ```
 
 ## Configurando o ambiente
   - instale o zsh `sudo apt install zsh`
